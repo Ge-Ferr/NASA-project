@@ -16,4 +16,5 @@ With this little project I've learned the following:
   - Serving apps with client side Routing
   - Building a Data Access Layer
   - Implementing endpoints and receiving HTTP verbs (POST, GET, PUT, DELETE ...)
+  - Testing requests with Postman
   - And many more ...
