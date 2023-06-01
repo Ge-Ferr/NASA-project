@@ -12,6 +12,7 @@ on to developing and integrating the frontend myself with Next.js.
 With this little project I've learned the following:
   - How to implement node and express.
   - How to implement middlewares.
+  - Package.json scripting
   - Implement a MVC pattern in Node.js
   - Serving apps with client side Routing
   - Building a Data Access Layer
