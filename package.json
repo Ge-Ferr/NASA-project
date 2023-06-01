@@ -1,0 +1,26 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "Little project I'm currently developing ",
+  "main": "index.js",
+  "Personal-Notes" :"As frontend is not working, the client script was skipped and not added to the watch script(& npm run client) (pending fix)",
+  "scripts": {
+    "install-server":"npm install --prefix server",
+    "install-client":"npm install --prefix client",
+    "server": "npm run watch --prefix server",
+    "watch": "npm run server",
+    "deploy":"npm run build-windows --prefix client && npm start --prefix server",
+    "test": "npm run test --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ge-Ferr/NASA-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ge-Ferr/NASA-project/issues"
+  },
+  "homepage": "https://github.com/Ge-Ferr/NASA-project#readme"
+}
